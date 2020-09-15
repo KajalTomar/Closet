@@ -1,0 +1,54 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Inconsolata', monospace;
+  background-color: rgb(199, 175, 156);
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.sidebar{
+	width: 200px;
+	margin-left: 20px;
+	margin-right: 70px;
+}
+
+h1 {
+	opacity: 80%;
+}
+
+p{
+	opacity: 80%;
+}
+
+img {
+	width: 550px;
+	height: 780px;
+	margin: 15px;
+	opacity: 70%;
+}
+
+#inspiration {
+	width: 200px;
+	height: auto;
+	justify-content: left;
+	margin:0;
+	margin-top: 20px;
+	opacity: 60%;
+}
+
+#summer:hover{
+	transform: scale(1.025);
+	opacity: 100%;
+}
+
+#winter:hover{
+	transform: scale(1.025);
+	opacity: 100%;
+}
